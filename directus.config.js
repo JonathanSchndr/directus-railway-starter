@@ -16,10 +16,10 @@ module.exports = function (env) {
         // Database variables from Railway PostgreSQL Plugin
         // Reference: https://docs.railway.app/plugins/postgresql
         DB_CLIENT: 'mysql',
-        DB_HOST: env.MSHOST,
-        DB_PORT: env.MSPORT,
-        DB_DATABASE: env.MSDATABASE,
-        DB_USER: env.MSUSER,
-        DB_PASSWORD: env.MSPASSWORD,
+        DB_HOST: env.MYSQLHOST,
+        DB_PORT: env.MYSQLPORT,
+        DB_DATABASE: env.MYSQLDATABASE,
+        DB_USER: env.MYSQLUSER,
+        DB_PASSWORD: env.MYSQLPASSWORD,
     };
 };
